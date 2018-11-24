@@ -2,7 +2,6 @@ package com.pronunciation_match.pronunciationmatch.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.pronunciation_match.pronunciationmatch.Phoneme;
@@ -19,7 +18,6 @@ public class PhonemeSelectionActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_phoneme_selection);
         ListView listView = findViewById(R.id.phoneme_list_view);
         List<Phoneme> phonemes = new ArrayList<>();
