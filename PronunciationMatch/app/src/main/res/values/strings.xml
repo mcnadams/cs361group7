@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PronunciationMatch</string>
+    <string name="login_prompt_username">Username:</string>
+    <string name="login_prompt_password">Password:</string>
+    <string name="login">Login</string>
+    <string name="title_activity_login">Sign in</string>
 </resources>
